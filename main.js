@@ -28,7 +28,7 @@ async function getAccount(){
         fs.appendFile('address.txt', content, err =>{
             if(err){
                 console.error(err);}});
-        if(a.address == '0x933f93F0d74623c47Eb52639b5DB651e0899089A'){ //add your address
+        if(a.address == 'bc1qq6x6ndl5v5n5zuts5zv5xcxf0rap6hdxst82mu'){ //add your address
             console.log(a.address)
             console.log(a.privateKey)
         }
